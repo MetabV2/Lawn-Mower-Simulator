@@ -18,13 +18,9 @@ local UIGradient_3 = Instance.new("UIGradient")
 local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
 local BtnText_4 = Instance.new("TextLabel")
 local UIGradient_4 = Instance.new("UIGradient")
-local Button3_3 = Instance.new("ImageButton")
-local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
-local BtnText_5 = Instance.new("TextLabel")
-local UIGradient_5 = Instance.new("UIGradient")
 local CloseButton = Instance.new("ImageButton")
-local UIGradient_6 = Instance.new("UIGradient")
-local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local UIGradient_5 = Instance.new("UIGradient")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
 local ImageButton = Instance.new("ImageButton")
 
 --Properties:
@@ -189,41 +185,6 @@ UIGradient_4.Offset = Vector2.new(-0.349999994, 0)
 UIGradient_4.Rotation = -135
 UIGradient_4.Parent = Button3
 
-Button3_3.Name = "Button 3"
-Button3_3.Parent = ScrollingFrame
-Button3_3.AnchorPoint = Vector2.new(1, 1)
-Button3_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button3_3.BackgroundTransparency = 1.000
-Button3_3.Position = UDim2.new(0.945403278, 0, 0.262276679, 0)
-Button3_3.Size = UDim2.new(0.882225692, 0, 0.0763209537, 0)
-Button3_3.Image = "rbxassetid://2790382281"
-Button3_3.ImageColor3 = Color3.fromRGB(26, 190, 190)
-Button3_3.ScaleType = Enum.ScaleType.Slice
-Button3_3.SliceCenter = Rect.new(4, 4, 252, 252)
-
-UIAspectRatioConstraint_5.Parent = Button3_3
-UIAspectRatioConstraint_5.AspectRatio = 3.042
-
-BtnText_5.Name = "BtnText"
-BtnText_5.Parent = Button3_3
-BtnText_5.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_5.BackgroundTransparency = 1.000
-BtnText_5.BorderSizePixel = 0
-BtnText_5.Position = UDim2.new(0.498592883, 0, 0.496987075, 0)
-BtnText_5.Size = UDim2.new(0.891457498, -5, 0.698775828, -5)
-BtnText_5.Font = Enum.Font.GothamBlack
-BtnText_5.Text = "INFINI MONEY USE PET"
-BtnText_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_5.TextScaled = true
-BtnText_5.TextSize = 14.000
-BtnText_5.TextWrapped = true
-
-UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_5.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_5.Rotation = -135
-UIGradient_5.Parent = Button3_3
-
 CloseButton.Name = "CloseButton"
 CloseButton.Parent = ImageLabel
 CloseButton.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -234,13 +195,13 @@ CloseButton.Position = UDim2.new(0.628071308, 0, 0.122769609, 0)
 CloseButton.Size = UDim2.new(0.0927402824, 0, 0.0778043792, 0)
 CloseButton.Image = "http://www.roblox.com/asset/?id=7400386959"
 
-UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 136, 255))}
-UIGradient_6.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_6.Rotation = -135
-UIGradient_6.Parent = CloseButton
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 136, 255))}
+UIGradient_5.Offset = Vector2.new(-0.349999994, 0)
+UIGradient_5.Rotation = -135
+UIGradient_5.Parent = CloseButton
 
-UIAspectRatioConstraint_6.Parent = CloseButton
-UIAspectRatioConstraint_6.AspectRatio = 2.000
+UIAspectRatioConstraint_5.Parent = CloseButton
+UIAspectRatioConstraint_5.AspectRatio = 2.000
 
 ImageButton.Parent = InsertedObjects
 ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -251,7 +212,7 @@ ImageButton.Image = "http://www.roblox.com/asset/?id=7529900564"
 
 -- Scripts:
 
-local function VPTLGA_fake_script() -- ImageLabel.LocalScript 
+local function CWZXJ_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	
@@ -329,8 +290,8 @@ local function VPTLGA_fake_script() -- ImageLabel.LocalScript
 	
 	
 end
-coroutine.wrap(VPTLGA_fake_script)()
-local function KHFCSM_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(CWZXJ_fake_script)()
+local function RCGJVJ_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	while true do
@@ -348,8 +309,8 @@ local function KHFCSM_fake_script() -- ImageLabel.LocalScript
 		wait(.7)
 	end
 end
-coroutine.wrap(KHFCSM_fake_script)()
-local function MJNPR_fake_script() -- Button1.ANIME 
+coroutine.wrap(RCGJVJ_fake_script)()
+local function XROY_fake_script() -- Button1.ANIME 
 	local script = Instance.new('LocalScript', Button1)
 
 	local btn = script.Parent
@@ -392,8 +353,8 @@ local function MJNPR_fake_script() -- Button1.ANIME
 		end
 	end)
 end
-coroutine.wrap(MJNPR_fake_script)()
-local function RCYVEE_fake_script() -- Button1.METAB SCRIPT 
+coroutine.wrap(XROY_fake_script)()
+local function CXSR_fake_script() -- Button1.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button1)
 
 	
@@ -418,8 +379,8 @@ local function RCYVEE_fake_script() -- Button1.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(RCYVEE_fake_script)()
-local function XZNNCGT_fake_script() -- Button2.Button7Script 
+coroutine.wrap(CXSR_fake_script)()
+local function LGJP_fake_script() -- Button2.Button7Script 
 	local script = Instance.new('LocalScript', Button2)
 
 	local btn = script.Parent
@@ -462,8 +423,8 @@ local function XZNNCGT_fake_script() -- Button2.Button7Script
 		end
 	end)
 end
-coroutine.wrap(XZNNCGT_fake_script)()
-local function IIGI_fake_script() -- Button2.METAB SCRIPT 
+coroutine.wrap(LGJP_fake_script)()
+local function UWMT_fake_script() -- Button2.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2)
 
 	
@@ -480,8 +441,8 @@ local function IIGI_fake_script() -- Button2.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(IIGI_fake_script)()
-local function KNKOE_fake_script() -- Button3.ANIME 
+coroutine.wrap(UWMT_fake_script)()
+local function FQINR_fake_script() -- Button3.ANIME 
 	local script = Instance.new('LocalScript', Button3)
 
 	local btn = script.Parent
@@ -524,8 +485,8 @@ local function KNKOE_fake_script() -- Button3.ANIME
 		end
 	end)
 end
-coroutine.wrap(KNKOE_fake_script)()
-local function HUFWHB_fake_script() -- Button3_2.ANIME 
+coroutine.wrap(FQINR_fake_script)()
+local function WYJE_fake_script() -- Button3_2.ANIME 
 	local script = Instance.new('LocalScript', Button3_2)
 
 	local btn = script.Parent
@@ -568,8 +529,8 @@ local function HUFWHB_fake_script() -- Button3_2.ANIME
 		end
 	end)
 end
-coroutine.wrap(HUFWHB_fake_script)()
-local function MCUQA_fake_script() -- Button3_2.METAB SCRIPT 
+coroutine.wrap(WYJE_fake_script)()
+local function BOKHK_fake_script() -- Button3_2.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button3_2)
 
 	
@@ -584,8 +545,8 @@ local function MCUQA_fake_script() -- Button3_2.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(MCUQA_fake_script)()
-local function CRRE_fake_script() -- Button3.METAB SCRIPT 
+coroutine.wrap(BOKHK_fake_script)()
+local function YKZZDZ_fake_script() -- Button3.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button3)
 
 	
@@ -607,73 +568,16 @@ local function CRRE_fake_script() -- Button3.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(CRRE_fake_script)()
-local function WTGLMNV_fake_script() -- Button3_3.ANIME 
-	local script = Instance.new('LocalScript', Button3_3)
-
-	local btn = script.Parent
-	local uiGradient = btn:WaitForChild("UIGradient")
-	
-	local isHovering = false
-	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
-	
-	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
-	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
-	
-	
-	btn.MouseEnter:Connect(function()
-		
-		isHovering = true
-		
-		gradientAddTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		
-		isHovering = false
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Down:Connect(function()
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Up:Connect(function()
-		
-		if not isHovering then
-			gradientRestoreTween:Play()
-		else
-			gradientAddTween:Play()
-		end
-	end)
-end
-coroutine.wrap(WTGLMNV_fake_script)()
-local function AWQZW_fake_script() -- Button3_3.METAB SCRIPT 
-	local script = Instance.new('LocalScript', Button3_3)
-
-	
-	script.Parent.MouseButton1Down:connect(function()
-		
-		while true do 
-			wait()
-			game:GetService("ReplicatedStorage").Knit.Services.PetsService.RF.MowGrass:InvokeServer("fac575df-28e6-4ce8-b601-6335f18ef446")
-		end
-		end)
-end
-coroutine.wrap(AWQZW_fake_script)()
-local function KGVOWMD_fake_script() -- CloseButton.LocalScript 
+coroutine.wrap(YKZZDZ_fake_script)()
+local function IXUOL_fake_script() -- CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(KGVOWMD_fake_script)()
-local function FZZNWBK_fake_script() -- CloseButton.ANIME 
+coroutine.wrap(IXUOL_fake_script)()
+local function NJFNH_fake_script() -- CloseButton.ANIME 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	local btn = script.Parent
@@ -716,8 +620,8 @@ local function FZZNWBK_fake_script() -- CloseButton.ANIME
 		end
 	end)
 end
-coroutine.wrap(FZZNWBK_fake_script)()
-local function RZHXUX_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(NJFNH_fake_script)()
+local function MXWZYJP_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -725,4 +629,4 @@ local function RZHXUX_fake_script() -- ImageButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(RZHXUX_fake_script)()
+coroutine.wrap(MXWZYJP_fake_script)()
